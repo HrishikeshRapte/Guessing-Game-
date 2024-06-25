@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>number Guessing Game</title>
+    <link rel="stylesheet" href="GuessingGame.css">
+</head>
+<body>
+    <video class="background-video" autoplay muted loop id="myVideo">
+        <source src="Qst mark vdo.mp4" type="video/mp4">
+      </video>
+
+    <h1>Lets Play</h1>  
+
+    <div class="container">
+        <div class="head"><h1>Guess a number between 1 to 100</h1></div>
+        <div class="entry">
+            <input type="text" id="input" placeholder="enter any number">
+            <button id="btn">Guess</button>
+            <p class="wrng"></p>
+            <p id="guesses">No.of Guess: 0</p>
+        </div>
+    </div>
+
+    <h3>by Hrishikesh Rapte</h3>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+    <script src="GuessingGame.js"></script>
+</body>
+</html>
